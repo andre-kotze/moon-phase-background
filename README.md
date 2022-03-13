@@ -1,13 +1,18 @@
 # moon-phase-background
 Change background picture to high resolution picture of the current moon phase from NASA
 
-I wrote a bash script which downloads a high resolution image of the current moon phase from NASAs Dial-A-Moon website "https://svs.gsfc.nasa.gov/48955", adds it onto a background image of stars, labels the image with the Illumination % and the Age of the Moon Cycle  and sets it as a background image on Linux Mint Cinnamon.
+<a href="https://github.com/desertplant">desertplant</a> wrote a bash script which downloads a high resolution image of the current moon phase from NASAs Dial-A-Moon website "https://svs.gsfc.nasa.gov/48955", adds it onto a background image of stars, labels the image with the Illumination % and the Age of the Moon Cycle  and sets it as a background image on Linux Mint Cinnamon.
 
 best.tif is an example picture. (Resolution 5641x3650 by default, 8192x5641 is possible too.)
 
 This script won't automatically update your background, it only updates it once each time it is excecuted. But if you want it to update automatically just set a Cron Job or add moonback.sh to startup applications.
 
 Also the downloaded images are deleted again immediately, so they don't clog up your storage.
+
+# Customisations
+Background image of stars changed to a Namibian night sky
+Moon size slightly reduced
+Label added showing updated foreign exchange rate (EUR:ZAR but can be adjusted)
 
 # Requirements:
 If you have cinnamon these are most likely pre-installed.
